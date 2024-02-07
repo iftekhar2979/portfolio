@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+</head>
+
+<body class="bg_primary">
+    <header>
+
+    </header>
+    <main class="container mx-auto   font-serif ">
+
+        <!-- section with name -->
+        <section class=" flex sm:flex-row sm:py-4 py-8 flex-col  justify-around">
+            <div class="flex items-center my-auto   flex-col px-4">
+                <h4 class="text-2xl primary_black pr-4 pl-2 sm:pl-0 md:text-4xl">Hi everyone, My name is</h4>
+
+                <h2 class="text-4xl py-2 sm:py-8 pr-6 md:py-6 lg:py-6 md:pr-0 primary_black md:text-6xl">Iftekhar Salmin
+                    <br> Rashid</h2>
+                    <img src="./Image/blob-1.png" alt="" srcset="" class="absolute">
+                <h2
+                    class="text-2xl py-1  sm:py-4 pr-4 sm:pr-0 pl-0 md:pr-10 md:py-2 primary_green font-semibold md:text-2xl ">
+                    I am a MERN Stack Developer</h2>
+            </div>
+            <!-- <div class=" py-8 flex items-center justify-center px-4">
+                <img src="./Image/blob-bg-1.png" alt="Descriptive text" class="absolute ">
+                <img src="./Image/FirstPic.png" alt="" srcset="" class="w-full h-96 px-2 sm:px-1 rounded-lg">
+                
+                  
+            </div> -->
+            <div class="py-8 flex items-center justify-center px-4">
+                <!-- Wrapper div with relative positioning to contain the main image and the background corner image -->
+                <div class="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-96 px-2 sm:px-1">
+                  <!-- Background corner image -->
+                  <!-- <img src="./Image/blob-bg-1.png" alt="Descriptive text" class="absolute right-0  bottom-0 w-full h-full object-cover rounded-lg"> -->
+                  <!-- Main image -->
+                  <img src="./Image/FirstPic.png" alt="" class="w-full h-full object-cover z-10 rounded-lg">
+                </div>
+              </div>
+        </section>
+        <!-- profile section -->
+        <!-- <section class=" flex sm:flex-row py-0 sm:py-4 px-2 md:px-6 sm:px-8 flex-col  justify-around">
+            <div class="px-1 md:px-2 sm:px-4">
+                <figure class=" py-8 w-full h-80 sm:w-96">
+                    <img src="./Image/2nd pic.png" alt="" srcset="" class="w-full h-72 px-4 sm:px-1 rounded-lg">
+                </figure>
+                <button class="custom_Fill_Btn my-6 ml-6">Email Me</button>
+                <img src="./Image/blob-1.png" alt="" srcset="" class="absolute">
+            </div>
+            <article class="flex my-6 mx-auto  px-0 md:px-2 sm:px-4">
+                <div class="pl-0 sm:pl-4">
+                   
+                    <h1
+                        class="primary_green text-2xl md:text-4xl   divide-y-2 sm:text-6xl font-bold px-2 sm:px-0 border_bottom">
+                        About Me</h1>
+                        
+                    <p class="primary_black my-4 text-lg px-2 drop-shadow-sm sm:px-0">I'm Iftekhar Salmin Rashid, an B.S student . Specializing
+                        in web technologies such as Javascript, React, Redux js , Redux toolkit , Node.js, Express.js,
+                        and MongoDB, Prisma I enjoy building dynamic websites to meet diverse client needs. Interested
+                        in exploring frontend development, I am actively seeking opportunities to contribute my skills
+                        and collaborate on successful projects. My mission over the next two years is to become a full-
+                        stack developer, showcasing my enthusiasm for learning and trying new things in the
+                        ever-evolving field of web development.</p>
+                        <div class="relative ">
+                            <img src="./Image/blob-3.png" alt="Descriptive text" class="absolute right-0 top-0 w-48 h-auto">
+                          </div>
+                    <div class="flex flex-col md:flex-row sm:flex-row my-6 px-4 sm:px-0">
+                        <button class="customBtn text-black ">Resume</button>
+                        <button class="customBtn text-black ml-0 md:ml-4 mt-2 md:mt-0 sm:mt-0 sm:ml-6">Portfolio</button>
+                    </div>
+                    <div class="flex justify-center ">
+                        <img src="./Image/facebook.png" alt="" srcset="" class="w-10 h-10 ">
+                        <img src="./Image/linkedin.png" alt="" srcset="" class="w-10 h-10 ml-4 ">
+                        <img src="./Image/github.png" alt="" srcset="" class="w-10 h-10 ml-4">
+                    </div>
+                </div>
+            </article>
+
+        </section> -->
+       
+        <section class="flex flex-col sm:flex-row py-4 px-2 md:px-6 sm:px-8 justify-around">
+            <!-- Left Column -->
+            <div class="px-2 sm:px-4">
+               
+                <!-- Image -->
+                <figure class="py-8 w-full sm:w-96">
+                    <img src="./Image/2nd pic.png" alt="" class="w-full h-72 px-4 sm:px-1 rounded-lg">
+                </figure>
+                <!-- Button -->
+                <button class="custom_Fill_Btn my-6 ml-6">Email Me</button>
+                <!-- Background Blob Image -->
+                <img src="./Image/blob-1.png" alt="" class="absolute -top-4 -right-4 w-24 sm:w-32">
+            </div>
+            
+            <!-- Right Column -->
+            <article class="flex flex-col my-6 mx-auto px-2 sm:px-4">
+                <!-- Title -->
+                <h1 class="primary_green text-4xl sm:text-6xl font-bold border-b-2 px-2 sm:px-0">About Me</h1>
+                <!-- Description -->
+                <p class="primary_black my-4 text-lg px-2 sm:px-0">I'm Iftekhar Salmin Rashid, a B.S student, specializing
+                    in web technologies such as JavaScript, React, Redux, Node.js, and MongoDB. I enjoy building dynamic websites to meet diverse client needs. Interested
+                    in exploring frontend development, I am actively seeking opportunities to contribute my skills
+                    and collaborate on successful projects. My mission over the next two years is to become a full-stack developer, showcasing my enthusiasm for learning and trying new things in the
+                    ever-evolving field of web development.</p>
+                    <img src="./Image/blob-red.svg" alt="" class="absolute top-9/8 right-9/8 w-24 sm:w-32">
+                    <div class="relative ">
+                        <img src="./Image/blob-3.png" alt="Descriptive text" class="absolute right-0 top-0 w-48 h-auto">
+                      </div>
+                <!-- Button Group -->
+                <div class="flex flex-col md:flex-row sm:flex-row my-6 px-2 sm:px-0">
+                    <button class="customBtn text-black mb-2 md:mb-0 md:mr-2">Resume</button>
+                    <button class="customBtn text-black">Portfolio</button>
+                </div>
+                <!-- Social Icons -->
+                <div class="flex justify-center">
+                    <img src="./Image/facebook.png" alt="" class="w-10 h-10">
+                    <img src="./Image/linkedin.png" alt="" class="w-10 h-10 ml-4">
+                    <img src="./Image/github.png" alt="" class="w-10 h-10 ml-4">
+                </div>
+            </article>
+        </section>
+        <!-- skill set section -->
+        <!-- <section class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8 py-8">
+
+            <div class="flex justify-center items-center">
+                <div class="relative ">
+                    <img src="./Image/blob-6.svg" alt="Descriptive text" class="absolute right-0 top-0 w-48 h-auto">
+                  </div>
+                <h1 class=" font-bold text-3xl border_bottom   ">Skills & <br> Profiencies</h1>
+            </div>
+            <div
+                class="backdrop-blur-xl backdrop-brightness-100  bg-white/30 p-4   fadeOutRightBig service-item">
+                <h1 class="text-3xl text-center primary_green ">Web Development Skills</h1>
+                <div class="mx-auto">
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center">Frontend</p>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8"  src="https://i.ibb.co/TH483bt/html5-logo-html-logo-0.png" />
+                        <h2 class="p-1">HTML</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/J2Xwx1x/html5-logo-opencode-css-8.png" />
+                        <h2 class="p-1 ">CSS</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8"  src="https://i.ibb.co/vzsbXYK/boots.jpg"/>
+                        <h2 class="p-1 ">BOOTSTRAP</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/dcvyp95/ta-choto.webp"/>
+                        <h2 class="p-1 ">TAILWIND CSS</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/3WjkjcV/javascript.png"/>
+                        <h2 class="p-1 ">JAVASCRIPT</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/Y0VzS5P/react.webp" />
+                        <h2 class="p-1 ">REACT.JS</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" />
+                        <h2 class="p-1 ">REDUX.JS</h2>
+                    </div>
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center">Backend</p>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/NODEJS.png"  />
+                        <h2 class="p-1 ">NODE.JS</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/Yy4kyLp/icons8-express-js-50.png"  />
+                        <h2 class="p-1 ">EXPRESS.JS</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8"  src="https://i.ibb.co/RPPvc7m/icons8.png"   />
+                        <h2 class="p-1 ">MONGO DB</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8"  src="https://tsed.io/mongoose.png"   />
+                        <h2 class="p-1 ">MONGOOSE</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8"  src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg"   />
+                        <h2 class="p-1 ">PRISMA ORM</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="backdrop-blur-xl backdrop-brightness-100  bg-white/30 p-4 bg_primary  service-item">
+                <h1 class="text-3xl text-center primary_green ">Other Skills</h1>
+                <div class="mx-auto">
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center">Tools</p>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/XYSTRQq/git.png"  />
+                        <h2 class="p-1 ">GIT & GITHUB</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/Xyj3C6m/firebase.png"  />
+                        <h2 class="p-1 ">FIREBASE</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/pLhXD5r/ffffffffff.png"   />
+                        <h2 class="p-1 ">FIGMA</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/vscode.png"   />
+                        <h2 class="p-1 ">VS CODE EDITOR</h2>
+                    </div>
+                
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center border-solid -cyan-950">Soft Skills
+                    </p>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/MSWORD.png"   />
+                        <h2 class="p-1 ">MS WORD</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/SHEET.png"   />
+                        <h2 class="p-1 ">GOOGLE SHEETS</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> -->
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-8 md:px-8">
+            <!-- Section for Skills & Proficiencies -->
+            <div class="flex justify-center items-center relative">
+                <!-- Blob Image -->
+                <div class="absolute top-40 right-8   w-48 md:w-64">
+                    <img src="./Image/blob-3.png" alt="Descriptive text" class="w-full h-auto">
+                </div>
+                <!-- Title -->
+                <h1 class="font-bold text-3xl border-b-2">Skills &<br> Proficiencies</h1>
+            </div>
+            
+            <!-- Section for Web Development Skills -->
+            <div class="backdrop-blur-xl backdrop-brightness-100 bg-white/30 p-4 service-item">
+                <h1 class="text-3xl text-center primary_green">Web Development Skills</h1>
+                <div class="mx-auto">
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center">Frontend</p>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8"  src="https://i.ibb.co/TH483bt/html5-logo-html-logo-0.png" />
+                            <h2 class="p-1">HTML</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="https://i.ibb.co/J2Xwx1x/html5-logo-opencode-css-8.png" />
+                            <h2 class="p-1 ">CSS</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8"  src="https://i.ibb.co/vzsbXYK/boots.jpg"/>
+                            <h2 class="p-1 ">BOOTSTRAP</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="https://i.ibb.co/dcvyp95/ta-choto.webp"/>
+                            <h2 class="p-1 ">TAILWIND CSS</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="https://i.ibb.co/3WjkjcV/javascript.png"/>
+                            <h2 class="p-1 ">JAVASCRIPT</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="https://i.ibb.co/Y0VzS5P/react.webp" />
+                            <h2 class="p-1 ">REACT.JS</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" />
+                            <h2 class="p-1 ">REDUX.JS</h2>
+                        </div>
+                        <p class="bg-primary font-bold text-2xl divide-y-2 text-center">Backend</p>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="./Image/NODEJS.png"  />
+                            <h2 class="p-1 ">NODE.JS</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8" src="https://i.ibb.co/Yy4kyLp/icons8-express-js-50.png"  />
+                            <h2 class="p-1 ">EXPRESS.JS</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8"  src="https://i.ibb.co/RPPvc7m/icons8.png"   />
+                            <h2 class="p-1 ">MONGO DB</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8"  src="https://tsed.io/mongoose.png"   />
+                            <h2 class="p-1 ">MONGOOSE</h2>
+                        </div>
+                        <div class="flex p-1 text-xl">
+                            <img class="h-8 w-8"  src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg"   />
+                            <h2 class="p-1 ">PRISMA ORM</h2>
+                        </div>
+                    <!-- Skill Items -->
+                    <!-- Add your skill items here -->
+                </div>
+            </div>
+          
+            
+            <!-- Section for Other Skills -->
+            <div class="backdrop-blur-xl backdrop-brightness-100 bg-white/30 p-4 bg_primary service-item">
+                <div class="absolute top-96 right-2   w-48 md:w-64">
+                    <img src="./Image/blob-5.svg" alt="Descriptive text" class="w-full h-full">
+                </div>
+                <h1 class="text-3xl text-center primary_green">Other Skills</h1>
+                <div class="mx-auto">
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center">Tools</p>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/XYSTRQq/git.png"  />
+                        <h2 class="p-1 ">GIT & GITHUB</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/Xyj3C6m/firebase.png"  />
+                        <h2 class="p-1 ">FIREBASE</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="https://i.ibb.co/pLhXD5r/ffffffffff.png"   />
+                        <h2 class="p-1 ">FIGMA</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/vscode.png"   />
+                        <h2 class="p-1 ">VS CODE EDITOR</h2>
+                    </div>
+                
+                    <p class="bg-primary font-bold text-2xl divide-y-2 text-center border-solid -cyan-950">Soft Skills
+                    </p>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/MSWORD.png"   />
+                        <h2 class="p-1 ">MS WORD</h2>
+                    </div>
+                    <div class="flex p-1 text-xl">
+                        <img class="h-8 w-8" src="./Image/SHEET.png"   />
+                        <h2 class="p-1 ">GOOGLE SHEETS</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- show case project section -->
+        <section class="my-4">
+            <div >
+                <h1 class="primary_green text-4xl text-center">Sample work</h1>
+            </div>
+            <div>
+                <img src="" alt="" srcset="">
+                
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
